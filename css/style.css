@@ -1,0 +1,205 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-action-bar .main-action-bar-title {
+  padding-top: 25px;
+  font-weight: 380;
+  font-size: 16pt;
+  color: #FFF;
+}
+.main-action-bar {
+  background-color: #000000;
+  padding: 20px;
+}
+.action-buttons-grid .bi {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+.bi-envelope {
+  position: relative;
+}
+.bi-envelope span {
+  position: absolute;
+  font-size: 8pt;
+  background-color: #A5C882;
+  padding: 5px 3px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: black;
+  bottom: 20px;
+  left: 22px;
+}
+.draft {
+  color: #F7DD72;
+}
+.main-action-bar .action-bar-header .profile-image {
+  background-color: #1D1D1D;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.main-action-bar .action-bar-header .action-buttons-grid .bi:hover {
+  filter: brightness(2);
+}
+.main-action-bar .action-bar-header .action-buttons-grid .bi {
+  font-size: 16pt;
+  padding: 8px;
+  background-color: #1D1D1D;
+  color: white;
+  border-radius: 50%;
+  display: inline-block;
+}
+.main-action-bar .action-bar-header {
+  display: flex;
+  justify-content: space-between;
+}
+.account-nav h1 {
+  font-weight: 380;
+  font-size: 15pt;
+}
+.account-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 24px 12px 24px;
+  align-items: center;
+}
+.current-money {
+  font-size: 16pt;
+  padding: 0 24px 0 24px;
+  font-weight: 400;
+}
+.my-cards-widget h1 {
+  font-size: 11pt;
+  font-weight: 380;
+}
+.my-cards-widget .bi {
+  font-size: 17pt;
+  padding-right: 12px;
+  display: inline-block;
+}
+.my-cards-widget {
+  display: flex;
+  align-items: center;
+  margin: 0 24px 10px 24px;
+  background-color: #E9E9E9;
+  padding: 14px 24px 14px 24px;
+  border-radius: 5px;
+}
+.bill-container footer {
+  color: grey;
+}
+.bill-container .bill-debit {
+  font-weight: 450;
+}
+.bill-container {
+  padding: 12px 24px;
+  font-size: 10pt;
+}
+.button-pages .page footer {
+  margin-top: 4px;
+  font-size: 10pt;
+}
+.button-pages .page .bi {
+  background-color:#e0e0e0;
+  margin-top: 20px;
+  padding: 15px;
+  width: 60px;
+  border-radius: 50%;
+  font-size: 18pt;
+  text-align: center;
+}
+.button-pages .page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.button-pages {
+  display: flex;
+  padding: 12px 24px;
+  justify-content: space-between;
+}
+
+.blockchain-history nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.blockchain-history nav > h1 {
+  font-weight: 350;
+  font-size: 18pt;
+}
+.blockchain-history ul {
+  padding-top: 24px;
+}
+.blockchain-history ul li {
+  list-style: none;
+  
+}
+.blockchain-history ul li footer{
+  font-size: 8pt;
+  color: grey;
+  width: 100%;
+
+}
+.blockchain-history ul li footer {
+  display: flex;
+  justify-content: space-between;
+}
+.blockchain-history ul li > h1{
+  font-weight: 350;
+  font-size: 12pt;
+
+}
+.blockchain-history {
+  padding: 24px;
+}
+.tools header h1 {
+  font-weight: 350;
+  font-size: 14pt;
+  padding-bottom: 6px;
+}
+.tools main p {
+  font-size: 9pt;
+  color: grey;
+}
+.tools nav {
+  display: flex;
+  justify-content: space-between;
+}
+.btn {
+  background-color: #A5C882;
+  margin-top: 15px;
+  border-radius: 5px;
+  padding: 8px 14px 8px 14px;
+  width: 40%;
+  text-align: center;
+  color: black;
+}
+.tools footer span {
+}
+.tools footer .bi {
+  padding: 6px;
+  border-radius: 5px;
+}
+.tools footer {
+  padding-top: 12px;
+  display: flex;
+  align-items: center;
+  font-size: 8pt;
+  justify-content: space-between;
+}
+.tools {
+  margin: 24px;
+  border-radius: 5px;
+  padding: 24px;
+  background-color: #1D1D1D;
+  color: white;
+}
